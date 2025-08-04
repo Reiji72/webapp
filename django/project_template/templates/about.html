@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}เกี่ยวกับเรา{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+
+  <!-- หัวข้อหลัก -->
+  <div class="text-center mb-5">
+    <h1 class="text-danger" style="font-weight: bold;">เกี่ยวกับเรา</h1>
+    <p class="lead text-secondary">เราคือหนึ่งในคนที่ติดม้าในช่วงนี้</p>
+  </div>
+
+<img src="{% static 'sw.gif' %}" style="width: 325px; height: 325px;" alt="Team Member">
+<img src="{% static 'gs.gif' %}" style="width: 325px; height: 325px;" alt="Team Member">
+<img src="{% static 'ui.gif' %}" style="width: 325px; height: 325px;" alt="Team Member">
+
+ <!-- หัวข้อหลัก -->
+<style>
+  .text-pink {
+    color:rgb(22, 21, 73);
+  }
+  
+</style>
+{% endblock %}
